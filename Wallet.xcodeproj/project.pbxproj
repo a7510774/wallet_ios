@@ -13,8 +13,8 @@
 		0F0CFDEA1F15E54100476A86 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0CFDE91F15E54100476A86 /* AppDelegate.m */; };
 		0F0CFDED1F15E54100476A86 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0CFDEC1F15E54100476A86 /* ViewController.m */; };
 		0F0CFDF01F15E54100476A86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F0CFDEE1F15E54100476A86 /* Main.storyboard */; };
-		0F0CFE001F15E54100476A86 /* FBGTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0CFDFF1F15E54100476A86 /* FBGTests.m */; };
-		0F0CFE0B1F15E54100476A86 /* FBGUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0CFE0A1F15E54100476A86 /* FBGUITests.m */; };
+		0F0CFE001F15E54100476A86 /* WalletTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0CFDFF1F15E54100476A86 /* WalletTests.m */; };
+		0F0CFE0B1F15E54100476A86 /* WalletUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0CFE0A1F15E54100476A86 /* WalletUITests.m */; };
 		0F0CFE2F1F15FB3F00476A86 /* NSArray+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0CFE1E1F15FB3F00476A86 /* NSArray+Tool.m */; };
 		0F0CFE301F15FB3F00476A86 /* NSDictionary+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0CFE201F15FB3F00476A86 /* NSDictionary+Tool.m */; };
 		0F0CFE311F15FB3F00476A86 /* NSMutableString+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0CFE221F15FB3F00476A86 /* NSMutableString+Tool.m */; };
@@ -145,7 +145,7 @@
 		0FFEA9D71F17382A009F6151 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FFEA9D61F17382A009F6151 /* BaseModel.m */; };
 		0FFEA9DA1F173905009F6151 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FFEA9D91F173905009F6151 /* UserModel.m */; };
 		0FFEA9DD1F173929009F6151 /* UserSignData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FFEA9DC1F173929009F6151 /* UserSignData.m */; };
-		4EC616C3E8C9CD7DC12FC0E7 /* Pods_FBG.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4EF8E3460E908B2B9C8C464 /* Pods_FBG.framework */; };
+		4EC616C3E8C9CD7DC12FC0E7 /* Pods_Wallet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4EF8E3460E908B2B9C8C464 /* Pods_Wallet.framework */; };
 		A8016B4C1F4146B3003848CD /* TokenWalletInfoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A8016B4A1F4146B3003848CD /* TokenWalletInfoVC.m */; };
 		A8016B4D1F4146B3003848CD /* TokenWalletInfoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8016B4B1F4146B3003848CD /* TokenWalletInfoVC.xib */; };
 		A8016B501F418D4E003848CD /* ChoseWalletView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8016B4F1F418D4E003848CD /* ChoseWalletView.m */; };
@@ -329,7 +329,7 @@
 		0F02E8A21F25BAB800CFC12D /* ICOInfoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICOInfoVC.h; sourceTree = "<group>"; };
 		0F02E8A31F25BAB800CFC12D /* ICOInfoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICOInfoVC.m; sourceTree = "<group>"; };
 		0F02E8A41F25BAB800CFC12D /* ICOInfoVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ICOInfoVC.xib; sourceTree = "<group>"; };
-		0F0CFDE21F15E54100476A86 /* FBG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBG.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F0CFDE21F15E54100476A86 /* Wallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F0CFDE61F15E54100476A86 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0F0CFDE81F15E54100476A86 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0F0CFDE91F15E54100476A86 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -337,13 +337,13 @@
 		0F0CFDEC1F15E54100476A86 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0F0CFDEF1F15E54100476A86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0F0CFDF61F15E54100476A86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0F0CFDFB1F15E54100476A86 /* FBGTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FBGTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F0CFDFF1F15E54100476A86 /* FBGTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBGTests.m; sourceTree = "<group>"; };
+		0F0CFDFB1F15E54100476A86 /* WalletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F0CFDFF1F15E54100476A86 /* WalletTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WalletTests.m; sourceTree = "<group>"; };
 		0F0CFE011F15E54100476A86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0F0CFE061F15E54100476A86 /* FBGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FBGUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F0CFE0A1F15E54100476A86 /* FBGUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBGUITests.m; sourceTree = "<group>"; };
+		0F0CFE061F15E54100476A86 /* WalletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalletUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F0CFE0A1F15E54100476A86 /* WalletUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WalletUITests.m; sourceTree = "<group>"; };
 		0F0CFE0C1F15E54100476A86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0F0CFE1C1F15FA0C00476A86 /* FBG-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FBG-PrefixHeader.pch"; sourceTree = "<group>"; };
+		0F0CFE1C1F15FA0C00476A86 /* Wallet-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Wallet-PrefixHeader.pch"; sourceTree = "<group>"; };
 		0F0CFE1D1F15FB3F00476A86 /* NSArray+Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Tool.h"; sourceTree = "<group>"; };
 		0F0CFE1E1F15FB3F00476A86 /* NSArray+Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Tool.m"; sourceTree = "<group>"; };
 		0F0CFE1F1F15FB3F00476A86 /* NSDictionary+Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Tool.h"; sourceTree = "<group>"; };
@@ -570,7 +570,7 @@
 		0FFEA9D91F173905009F6151 /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
 		0FFEA9DB1F173929009F6151 /* UserSignData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserSignData.h; sourceTree = "<group>"; };
 		0FFEA9DC1F173929009F6151 /* UserSignData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserSignData.m; sourceTree = "<group>"; };
-		67423708828F7794DFFA2090 /* Pods-FBG.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBG.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FBG/Pods-FBG.debug.xcconfig"; sourceTree = "<group>"; };
+		67423708828F7794DFFA2090 /* Pods-Wallet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wallet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FBG/Pods-Wallet.debug.xcconfig"; sourceTree = "<group>"; };
 		A8016B491F4146B3003848CD /* TokenWalletInfoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TokenWalletInfoVC.h; sourceTree = "<group>"; };
 		A8016B4A1F4146B3003848CD /* TokenWalletInfoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TokenWalletInfoVC.m; sourceTree = "<group>"; };
 		A8016B4B1F4146B3003848CD /* TokenWalletInfoVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TokenWalletInfoVC.xib; sourceTree = "<group>"; };
@@ -833,15 +833,15 @@
 		A8DC9B441F58428D006984D4 /* CommitOrderVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommitOrderVC.xib; sourceTree = "<group>"; };
 		A8DC9B481F585F13006984D4 /* EBTAttributeLinkClickLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBTAttributeLinkClickLabel.h; sourceTree = "<group>"; };
 		A8DC9B491F585F13006984D4 /* EBTAttributeLinkClickLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBTAttributeLinkClickLabel.m; sourceTree = "<group>"; };
-		A8EF08011F5D243C009F8B7D /* FBG.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FBG.entitlements; sourceTree = "<group>"; };
+		A8EF08011F5D243C009F8B7D /* Wallet.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Wallet.entitlements; sourceTree = "<group>"; };
 		A8F2753F1F429A910035B5B8 /* RelationCapMinModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RelationCapMinModel.h; sourceTree = "<group>"; };
 		A8F275401F429A910035B5B8 /* RelationCapMinModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RelationCapMinModel.m; sourceTree = "<group>"; };
 		A8FEACB01F56553000C2F9AF /* AlicloudUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlicloudUtils.framework; sourceTree = "<group>"; };
 		A8FEACB11F56553000C2F9AF /* CloudPushSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CloudPushSDK.framework; sourceTree = "<group>"; };
 		A8FEACB21F56553000C2F9AF /* UTDID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UTDID.framework; sourceTree = "<group>"; };
 		A8FEACB61F568DE500C2F9AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C4EF8E3460E908B2B9C8C464 /* Pods_FBG.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FBG.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC5F2772DAD63E3E2FD339E4 /* Pods-FBG.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBG.release.xcconfig"; path = "Pods/Target Support Files/Pods-FBG/Pods-FBG.release.xcconfig"; sourceTree = "<group>"; };
+		C4EF8E3460E908B2B9C8C464 /* Pods_Wallet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wallet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC5F2772DAD63E3E2FD339E4 /* Pods-Wallet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wallet.release.xcconfig"; path = "Pods/Target Support Files/Pods-FBG/Pods-Wallet.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -861,7 +861,7 @@
 				A844759E1F32E4E3003C7BDB /* SystemConfiguration.framework in Frameworks */,
 				A8016B541F41976E003848CD /* AliyunOSSiOS.framework in Frameworks */,
 				A844759C1F32E4DB003C7BDB /* CoreTelephony.framework in Frameworks */,
-				4EC616C3E8C9CD7DC12FC0E7 /* Pods_FBG.framework in Frameworks */,
+				4EC616C3E8C9CD7DC12FC0E7 /* Pods_Wallet.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -885,9 +885,9 @@
 		0F0CFDD91F15E54100476A86 = {
 			isa = PBXGroup;
 			children = (
-				0F0CFDE41F15E54100476A86 /* FBG */,
-				0F0CFDFE1F15E54100476A86 /* FBGTests */,
-				0F0CFE091F15E54100476A86 /* FBGUITests */,
+				0F0CFDE41F15E54100476A86 /* Wallet */,
+				0F0CFDFE1F15E54100476A86 /* WalletTests */,
+				0F0CFE091F15E54100476A86 /* WalletUITests */,
 				0F0CFDE31F15E54100476A86 /* Products */,
 				1FB94741756A22AA0F6658B8 /* Pods */,
 				C470A9406146CE927C534CF8 /* Frameworks */,
@@ -897,17 +897,17 @@
 		0F0CFDE31F15E54100476A86 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0F0CFDE21F15E54100476A86 /* FBG.app */,
-				0F0CFDFB1F15E54100476A86 /* FBGTests.xctest */,
-				0F0CFE061F15E54100476A86 /* FBGUITests.xctest */,
+				0F0CFDE21F15E54100476A86 /* Wallet.app */,
+				0F0CFDFB1F15E54100476A86 /* WalletTests.xctest */,
+				0F0CFE061F15E54100476A86 /* WalletUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0F0CFDE41F15E54100476A86 /* FBG */ = {
+		0F0CFDE41F15E54100476A86 /* Wallet */ = {
 			isa = PBXGroup;
 			children = (
-				A8EF08011F5D243C009F8B7D /* FBG.entitlements */,
+				A8EF08011F5D243C009F8B7D /* Wallet.entitlements */,
 				0FBED41A1F19D7C7006C5CA8 /* Login */,
 				0FFEA9D41F1737F7009F6151 /* User */,
 				0F0CFE381F15FB9200476A86 /* NetWork */,
@@ -921,7 +921,7 @@
 				0F0CFDEC1F15E54100476A86 /* ViewController.m */,
 				A8B4DA731F61705D00FC8EC7 /* LaunchScreen.storyboard */,
 				A8FEACB61F568DE500C2F9AF /* Assets.xcassets */,
-				0F0CFE1C1F15FA0C00476A86 /* FBG-PrefixHeader.pch */,
+				0F0CFE1C1F15FA0C00476A86 /* Wallet-PrefixHeader.pch */,
 				0F0CFDEE1F15E54100476A86 /* Main.storyboard */,
 				0FF783101F2B1A1900F5B3D2 /* InfoPlist.strings */,
 				0FF7830A1F2B196900F5B3D2 /* Localizable.strings */,
@@ -929,7 +929,7 @@
 				A8B4DA761F61709F00FC8EC7 /* Images.xcassets */,
 				0F0CFDE51F15E54100476A86 /* Supporting Files */,
 			);
-			path = FBG;
+			path = Wallet;
 			sourceTree = "<group>";
 		};
 		0F0CFDE51F15E54100476A86 /* Supporting Files */ = {
@@ -940,22 +940,22 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		0F0CFDFE1F15E54100476A86 /* FBGTests */ = {
+		0F0CFDFE1F15E54100476A86 /* WalletTests */ = {
 			isa = PBXGroup;
 			children = (
-				0F0CFDFF1F15E54100476A86 /* FBGTests.m */,
+				0F0CFDFF1F15E54100476A86 /* WalletTests.m */,
 				0F0CFE011F15E54100476A86 /* Info.plist */,
 			);
-			path = FBGTests;
+			path = WalletTests;
 			sourceTree = "<group>";
 		};
-		0F0CFE091F15E54100476A86 /* FBGUITests */ = {
+		0F0CFE091F15E54100476A86 /* WalletUITests */ = {
 			isa = PBXGroup;
 			children = (
-				0F0CFE0A1F15E54100476A86 /* FBGUITests.m */,
+				0F0CFE0A1F15E54100476A86 /* WalletUITests.m */,
 				0F0CFE0C1F15E54100476A86 /* Info.plist */,
 			);
-			path = FBGUITests;
+			path = WalletUITests;
 			sourceTree = "<group>";
 		};
 		0F0CFE181F15F92300476A86 /* Category */ = {
@@ -1463,8 +1463,8 @@
 		1FB94741756A22AA0F6658B8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				67423708828F7794DFFA2090 /* Pods-FBG.debug.xcconfig */,
-				DC5F2772DAD63E3E2FD339E4 /* Pods-FBG.release.xcconfig */,
+				67423708828F7794DFFA2090 /* Pods-Wallet.debug.xcconfig */,
+				DC5F2772DAD63E3E2FD339E4 /* Pods-Wallet.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -1788,7 +1788,7 @@
 				A844759F1F32E4F6003C7BDB /* libsqlite3.0.tbd */,
 				A844759D1F32E4E3003C7BDB /* SystemConfiguration.framework */,
 				A844759B1F32E4DB003C7BDB /* CoreTelephony.framework */,
-				C4EF8E3460E908B2B9C8C464 /* Pods_FBG.framework */,
+				C4EF8E3460E908B2B9C8C464 /* Pods_Wallet.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1796,9 +1796,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0F0CFDE11F15E54100476A86 /* FBG */ = {
+		0F0CFDE11F15E54100476A86 /* Wallet */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0F0CFE0F1F15E54100476A86 /* Build configuration list for PBXNativeTarget "FBG" */;
+			buildConfigurationList = 0F0CFE0F1F15E54100476A86 /* Build configuration list for PBXNativeTarget "Wallet" */;
 			buildPhases = (
 				64A02538EECC0BFD76D486C7 /* [CP] Check Pods Manifest.lock */,
 				0F0CFDDE1F15E54100476A86 /* Sources */,
@@ -1811,14 +1811,14 @@
 			);
 			dependencies = (
 			);
-			name = FBG;
+			name = Wallet;
 			productName = FBG;
-			productReference = 0F0CFDE21F15E54100476A86 /* FBG.app */;
+			productReference = 0F0CFDE21F15E54100476A86 /* Wallet.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0F0CFDFA1F15E54100476A86 /* FBGTests */ = {
+		0F0CFDFA1F15E54100476A86 /* WalletTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0F0CFE121F15E54100476A86 /* Build configuration list for PBXNativeTarget "FBGTests" */;
+			buildConfigurationList = 0F0CFE121F15E54100476A86 /* Build configuration list for PBXNativeTarget "WalletTests" */;
 			buildPhases = (
 				0F0CFDF71F15E54100476A86 /* Sources */,
 				0F0CFDF81F15E54100476A86 /* Frameworks */,
@@ -1829,14 +1829,14 @@
 			dependencies = (
 				0F0CFDFD1F15E54100476A86 /* PBXTargetDependency */,
 			);
-			name = FBGTests;
+			name = WalletTests;
 			productName = FBGTests;
-			productReference = 0F0CFDFB1F15E54100476A86 /* FBGTests.xctest */;
+			productReference = 0F0CFDFB1F15E54100476A86 /* WalletTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		0F0CFE051F15E54100476A86 /* FBGUITests */ = {
+		0F0CFE051F15E54100476A86 /* WalletUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0F0CFE151F15E54100476A86 /* Build configuration list for PBXNativeTarget "FBGUITests" */;
+			buildConfigurationList = 0F0CFE151F15E54100476A86 /* Build configuration list for PBXNativeTarget "WalletUITests" */;
 			buildPhases = (
 				0F0CFE021F15E54100476A86 /* Sources */,
 				0F0CFE031F15E54100476A86 /* Frameworks */,
@@ -1847,9 +1847,9 @@
 			dependencies = (
 				0F0CFE081F15E54100476A86 /* PBXTargetDependency */,
 			);
-			name = FBGUITests;
+			name = WalletUITests;
 			productName = FBGUITests;
-			productReference = 0F0CFE061F15E54100476A86 /* FBGUITests.xctest */;
+			productReference = 0F0CFE061F15E54100476A86 /* WalletUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -1858,12 +1858,11 @@
 		0F0CFDDA1F15E54100476A86 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = ButtonRoot;
 				TargetAttributes = {
 					0F0CFDE11F15E54100476A86 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = L44XCS63SL;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Push = {
@@ -1885,7 +1884,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0F0CFDDD1F15E54100476A86 /* Build configuration list for PBXProject "FBG" */;
+			buildConfigurationList = 0F0CFDDD1F15E54100476A86 /* Build configuration list for PBXProject "Wallet" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -1898,9 +1897,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0F0CFDE11F15E54100476A86 /* FBG */,
-				0F0CFDFA1F15E54100476A86 /* FBGTests */,
-				0F0CFE051F15E54100476A86 /* FBGUITests */,
+				0F0CFDE11F15E54100476A86 /* Wallet */,
+				0F0CFDFA1F15E54100476A86 /* WalletTests */,
+				0F0CFE051F15E54100476A86 /* WalletUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -2272,7 +2271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F0CFE001F15E54100476A86 /* FBGTests.m in Sources */,
+				0F0CFE001F15E54100476A86 /* WalletTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2280,7 +2279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F0CFE0B1F15E54100476A86 /* FBGUITests.m in Sources */,
+				0F0CFE0B1F15E54100476A86 /* WalletUITests.m in Sources */,
 				A8823D3B1F5010A20092DF0F /* TransactionListVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2290,12 +2289,12 @@
 /* Begin PBXTargetDependency section */
 		0F0CFDFD1F15E54100476A86 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0F0CFDE11F15E54100476A86 /* FBG */;
+			target = 0F0CFDE11F15E54100476A86 /* Wallet */;
 			targetProxy = 0F0CFDFC1F15E54100476A86 /* PBXContainerItemProxy */;
 		};
 		0F0CFE081F15E54100476A86 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0F0CFDE11F15E54100476A86 /* FBG */;
+			target = 0F0CFDE11F15E54100476A86 /* Wallet */;
 			targetProxy = 0F0CFE071F15E54100476A86 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -2350,7 +2349,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -2358,7 +2359,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -2399,7 +2404,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -2407,7 +2414,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -2433,13 +2444,13 @@
 		};
 		0F0CFE101F15E54100476A86 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 67423708828F7794DFFA2090 /* Pods-FBG.debug.xcconfig */;
+			baseConfigurationReference = 67423708828F7794DFFA2090 /* Pods-Wallet.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = FBG/FBG.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = L44XCS63SL;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2479,7 +2490,7 @@
 					"\"YYCache\"",
 					"-all_load",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = capital.fbg.wallet;
+				PRODUCT_BUNDLE_IDENTIFIER = io.aelf.wallet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
@@ -2488,13 +2499,13 @@
 		};
 		0F0CFE111F15E54100476A86 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DC5F2772DAD63E3E2FD339E4 /* Pods-FBG.release.xcconfig */;
+			baseConfigurationReference = DC5F2772DAD63E3E2FD339E4 /* Pods-Wallet.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = FBG/FBG.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = L44XCS63SL;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2534,7 +2545,7 @@
 					"\"YYCache\"",
 					"-all_load",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = capital.fbg.wallet;
+				PRODUCT_BUNDLE_IDENTIFIER = io.aelf.wallet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
@@ -2550,7 +2561,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JSH.FBGTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FBG.app/FBG";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wallet.app/Wallet";
 			};
 			name = Debug;
 		};
@@ -2563,7 +2574,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JSH.FBGTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FBG.app/FBG";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wallet.app/Wallet";
 			};
 			name = Release;
 		};
@@ -2594,7 +2605,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0F0CFDDD1F15E54100476A86 /* Build configuration list for PBXProject "FBG" */ = {
+		0F0CFDDD1F15E54100476A86 /* Build configuration list for PBXProject "Wallet" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0F0CFE0D1F15E54100476A86 /* Debug */,
@@ -2603,7 +2614,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0F0CFE0F1F15E54100476A86 /* Build configuration list for PBXNativeTarget "FBG" */ = {
+		0F0CFE0F1F15E54100476A86 /* Build configuration list for PBXNativeTarget "Wallet" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0F0CFE101F15E54100476A86 /* Debug */,
@@ -2612,7 +2623,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0F0CFE121F15E54100476A86 /* Build configuration list for PBXNativeTarget "FBGTests" */ = {
+		0F0CFE121F15E54100476A86 /* Build configuration list for PBXNativeTarget "WalletTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0F0CFE131F15E54100476A86 /* Debug */,
@@ -2621,7 +2632,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0F0CFE151F15E54100476A86 /* Build configuration list for PBXNativeTarget "FBGUITests" */ = {
+		0F0CFE151F15E54100476A86 /* Build configuration list for PBXNativeTarget "WalletUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0F0CFE161F15E54100476A86 /* Debug */,

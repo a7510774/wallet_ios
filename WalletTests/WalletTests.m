@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface FBGTests : XCTestCase
+@interface WalletTests : XCTestCase
 
 @end
 
-@implementation FBGTests
+@implementation WalletTests
 
 - (void)setUp {
     [super setUp];
