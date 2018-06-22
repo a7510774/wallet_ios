@@ -80,7 +80,9 @@
 #import "AlertView.h"
 #import "AAGlobalMacro.h"
 #import "UIScrollView+EmptyDataSet.h"
-#include <Unichain/Unichain.h>
+//#import "Unichain/Unichain.h"
+//#import "Unichain.framework/Headers/Unichain.h"
+#import <Unichain/Unichain.h>
 #import "PDKeyChain.h"
 #import "JKBigInteger.h"
 #import "JKBigDecimal.h"

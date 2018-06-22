@@ -47,7 +47,8 @@ static NSString *const testAppSecret = @"efb26f9fa9cc2afa2aef54e860e309a2";
     NSLog(@"%@",[UserSignData share].user);
     if (!APP_APIEHEAD)
     {
-        [[NSUserDefaults standardUserDefaults] setObject:APIEHEAD1 forKey:@"appNetWorkApi"];
+        //设置测试环境APIEHEAD，还是正式环境APIEHEAD1
+        [[NSUserDefaults standardUserDefaults] setObject:APIEHEAD forKey:@"appNetWorkApi"];
         [[NSUserDefaults standardUserDefaults] synchronize];
     }
     
